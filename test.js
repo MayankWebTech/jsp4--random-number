@@ -70,7 +70,7 @@ function displayGuess(guess){
 }
 
 function displayMessage(message){
- lowOrHigh.innerHTML = `<h2>${message}</h2>`
+ lowOrHigh.innerHTML = `<h2 id="gameOver">${message}</h2>`
 }
 
 function endGame(){
